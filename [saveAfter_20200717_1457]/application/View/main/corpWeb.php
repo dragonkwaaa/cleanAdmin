@@ -42,6 +42,9 @@ $menu = 10;
 				<a href="javascript:goPage();" class="btn searchSort"> 검색</a>
 			</div>
 			<div class="listGroup">
+
+                <a href="javascript:void(0);" class="btn addCorpBtn">업체 추가하기</a>
+
 				<table class="listTable selectableSort">
 					<colgroup>
 					<col width="40">
@@ -78,7 +81,7 @@ $menu = 10;
 					<?=$paging?>
 				</div>
 			</div>
-			<a href="javascript:void(0);" class="btn addCorpBtn">업체 추가하기</a>
+			<!-- <a href="javascript:void(0);" class="btn addCorpBtn">업체 추가하기</a> -->
 		</div>
 		<div class="regSection deviceSort">
 			<div class="titleBox underSectionSort">업체 상세 정보</div>
@@ -139,6 +142,8 @@ $menu = 10;
 						</tbody>
 					</table>
 				</form>
+                <a href="javascript:save_corp();" class="btn saveSort">저장</a>
+
 			</div>
                 <div class="listGroup userInfoSort">
 					<div class="titleBox listGroupsort">사용자정보</div>
@@ -160,7 +165,7 @@ $menu = 10;
 					</table>
 					<div class="pagingBox" id="corpUserPaging"></div>
 				</div>
-			<a href="javascript:save_corp();" class="btn saveSort">저장</a>
+			<!-- <a href="javascript:save_corp();" class="btn saveSort">저장</a> -->
 		</div>
         <div class="listSection ventSort">
 			<div class="titleBox underSectionSort">배출구 목록</div>
@@ -175,13 +180,15 @@ $menu = 10;
 						<th>배출구코드</th>
 						<td>
 							<input class="tbox ventSearchSort" id="chimneySearchWord"/>
+                            <a href="javascript:get_chimney();" class="btn searchSort">검색</a>
 						</td>
 					</tr>
 					</tbody>
 				</table>
-				<a href="javascript:get_chimney();" class="btn searchSort"> 검색</a>
+				<!-- <a href="javascript:get_chimney();" class="btn searchSort"> 검색</a> -->
 			</div>
 			<div class="listGroup">
+                <a href="javascript:void(0);" class="addBotBtn ventSort">배출구 추가하기</a>
 				<table class="listTable selectableSort">
 					<colgroup>
 					<col width="40">
@@ -212,7 +219,7 @@ $menu = 10;
 					<a href="javascript:void(0)" class="pagingBtn next"></a>
 				</div>
 			</div>
-			<a href="javascript:void(0);" class="addBotBtn ventSort">배출구 추가하기</a>
+			<!-- <a href="javascript:void(0);" class="addBotBtn ventSort">배출구 추가하기</a> -->
 		</div>
 
         <div class="listSection ventSort">
@@ -227,14 +234,16 @@ $menu = 10;
 					<tr>
 						<th>시설코드</th>
 						<td>
-							<input class="tbox ventSearchSort"/>
+                            <input class="tbox ventSearchSort"/>
+                            <a href="javascript:void(0);" class="btn searchSort"> 검색</a>
 						</td>
 					</tr>
 					</tbody>
 				</table>
-				<a href="javascript:void(0);" class="btn searchSort"> 검색</a>
+				<!-- <a href="javascript:void(0);" class="btn searchSort"> 검색</a> -->
 			</div>
 			<div class="listGroup">
+                <a href="javascript:void(0);" class="addBotBtn facSort">시설 추가하기</a>
 				<table class="listTable selectableSort">
 					<colgroup>
 					<col width="40">
@@ -265,7 +274,7 @@ $menu = 10;
 					<a href="javascript:void(0)" class="pagingBtn next"></a>
 				</div>
 			</div>
-			<a href="javascript:void(0);" class="addBotBtn facSort">시설 추가하기</a>
+			<!-- <a href="javascript:void(0);" class="addBotBtn facSort">시설 추가하기</a> -->
 		</div>
 
 
@@ -281,14 +290,16 @@ $menu = 10;
 					<tr>
 						<th>항목코드</th>
 						<td>
-							<input class="tbox ventSearchSort"/>
+                            <input class="tbox ventSearchSort"/>
+                            <a href="javascript:void(0);" class="btn searchSort"> 검색</a>
 						</td>
 					</tr>
 					</tbody>
 				</table>
-				<a href="javascript:void(0);" class="btn searchSort"> 검색</a>
+				<!-- <a href="javascript:void(0);" class="btn searchSort"> 검색</a> -->
 			</div>
 			<div class="listGroup">
+                <a href="javascript:void(0);" class="addBotBtn compSort">항목 추가하기</a>
 				<table class="listTable selectableSort">
 					<colgroup>
 					<col width="40">
@@ -319,7 +330,7 @@ $menu = 10;
 					<a href="javascript:void(0)" class="pagingBtn next"></a>
 				</div>
 			</div>
-			<a href="javascript:void(0);" class="addBotBtn compSort">항목 추가하기</a>
+			<!-- <a href="javascript:void(0);" class="addBotBtn compSort">항목 추가하기</a> -->
 		</div>
 	</div>
 </div>
